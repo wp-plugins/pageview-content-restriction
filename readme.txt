@@ -1,6 +1,6 @@
 === Pageview content restriction ===
 Contributors: veganist
-Tags: content restriction, restrict, access, restricted access, member only, subscriber only, registration
+Tags: content restriction, restrict, access, restricted access, member only, subscriber only, registration, pageviews
 Requires at least: 3.8
 Tested up to: 3.9
 Stable tag: 1.0
