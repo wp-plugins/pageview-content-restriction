@@ -143,7 +143,7 @@ function get_unique_browser_identifier() {
         return "donotblock";
     } else {
         // credit for this idea to identify visitors goes to Emmanuel Revah / manurevah.com
-        return md5($_SERVER['HTTP_USER_AGENT'].$_SERVER['REMOTE_IP']);
+		return sha1($_SERVER['REMOTE_ADDR'].$_SERVER['HTTP_USER_AGENT'].$_SERVER['HTTP_ACCEPT_LANGUAGE'].$_SERVER['HTTP_ACCEPT_CHARSET'].$_SERVER['HTTP_ACCEPT_ENCODING']);
     }
 }
 
